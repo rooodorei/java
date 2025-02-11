@@ -1,13 +1,17 @@
 package com.jb.object;
 
 public class student {
-    String name;
-    int age;
-    String address;
-    double math;
+    private double score;
 
-    public void printMath() {
-        System.out.println("Math: " + math);
+    public student(){
+
     }
 
+    public void setScore(double score) {
+        this.score = score;
+    }
+    public double getScore() {
+        System.out.println(score);
+        return score;
+    }
 }

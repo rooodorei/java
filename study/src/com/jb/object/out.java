@@ -2,10 +2,10 @@ package com.jb.object;
 
 public class out {
     public static void main(String[] args) {
-        student A;
-        A = new student();
-        A.math=100;
-        A.printMath();
+        student s1 = new student();
+        s1.setScore(70);
+        operate o1=new operate(s1);
+        o1.printPass();
     }
 
 }
